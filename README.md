@@ -108,7 +108,7 @@ The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent
   **Cost per Plan = €68.88/month**
 
 -----
-#### *Total Cost: €7.6540154/100 Requests & €68.88/month.*
+**Total Cost: €7.6540154/100 Requests & €68.88/month.**
 #
 #
 ##### *Other Hard Limitations*
