@@ -4,7 +4,7 @@
 
 
 ###
-##What is Azure OpenAI Service?
+#What is Azure OpenAI Service?
 Azure OpenAI Service provides REST API access to OpenAI's powerful language models including the GPT-4 (new) and GPT-3 model series. 
 ###
 ####Benefits
