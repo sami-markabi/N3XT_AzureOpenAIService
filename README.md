@@ -170,3 +170,12 @@ Navigate to Azure OpenAI Studio and sign-in with credentials that have access to
 ##
 
 11. Once you're satisfied with the experience in Azure OpenAI studio, you can deploy a web app directly from the Studio by selecting the **Deploy to button**.
+
+#
+
+## Resources
+###
+* https://learn.microsoft.com/en-us/azure/cognitive-services/openai/
+* https://oai.azure.com/
+* https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
+* https://azure.microsoft.com/en-us/pricing/details/search/
