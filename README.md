@@ -148,7 +148,9 @@ Navigate to Azure OpenAI Studio and sign-in with credentials that have access to
 
 
 ##
-   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chatgpt-playground-add-your-data.png" alt="step1" width="1000" height="300"/>
+
+   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chatgpt-playground-add-your-data.png" alt="step1" width="1000" height="500"/>
+   
 ##
 
 
@@ -159,7 +161,9 @@ Navigate to Azure OpenAI Studio and sign-in with credentials that have access to
 
 
 ##
-   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chat-playground.png" alt="step1" width="1000" height="400"/>
+
+   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chat-playground.png" alt="step1" width="1000" height="500"/>
+   
 ##
 
 11. Once you're satisfied with the experience in Azure OpenAI studio, you can deploy a web app directly from the Studio by selecting the **Deploy to button**.
