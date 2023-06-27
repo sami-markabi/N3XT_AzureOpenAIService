@@ -18,7 +18,10 @@ Azure OpenAI Service provides REST API access to OpenAI's powerful language mode
 * One of the key features of Azure OpenAI on your data is its ability to retrieve and utilize data in a way that enhances the model's output. Azure OpenAI on your data, together with Azure Cognitive Search, determines what data to retrieve from the designated data source based on the user input and provided conversation history. This data is then augmented and resubmitted as a prompt to the OpenAI model, with retrieved information being appended to the original prompt. Although retrieved data is being appended to the prompt, the resulting input is still processed by the model like any other prompt. Once the data has been retrieved and the prompt has been submitted to the model, the model uses this information to provide a completion.
 ##
 
-  <img src="https://media.licdn.com/dms/image/D4E12AQGaCCKG5_NmdQ/article-cover_image-shrink_600_2000/0/1684402359330?e=2147483647&v=beta&t=Ny5SqpqLOP_YsOdAraT7ZRj2Dt_bF2wmuKkPW17sD_g" alt="Azure OpenAI" width="2000" height="250"/>
+  <img src="https://media.licdn.com/dms/image/D4E12AQGaCCKG5_NmdQ/article-cover_image-shrink_600_2000/0/1684402359330?e=2147483647&v=beta&t=Ny5SqpqLOP_YsOdAraT7ZRj2Dt_bF2wmuKkPW17sD_g" alt="Azure OpenAI" width="2000" height="500"/>
+
+
+  
 ##
 
 * Azure OpenAI on your data uses an Azure Cognitive Services index to determine what data to retrieve based on user inputs and provided conversation history. 
@@ -51,7 +54,7 @@ For example, if you're creating a chatbot where the data consists of transcripti
 The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent to setting the max_tokens parameter in the API.
 
 ##
-#####*Pricing*
+##### *Pricing*
 
 - Azure OpenAI Service per 1000 tokens.
 - Cognitive Search to access your own data.
