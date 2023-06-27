@@ -1,18 +1,18 @@
 <img src="https://www.n3xtsports.com/wp-content/uploads/2021/01/N3XT-Sports-Logo-Colored-Stickyx2.png" alt="N3XTSPORTS" width="120" height="50"/>
-#Azure OpenAI Service - N3XTSPORTS
+# Azure OpenAI Service - N3XTSPORTS
 
 
 
 ###
-#What is Azure OpenAI Service?
+## What is Azure OpenAI Service?
 Azure OpenAI Service provides REST API access to OpenAI's powerful language models including the GPT-4 (new) and GPT-3 model series. 
 ###
-####Benefits
+#### Benefits
 * Add our own data source, and be able to chat with it using OpenAI ChatGPT. 
 * Easily integrate it with our PowerApps or any WebApps using the deployment feature on Azure.
 * Azure OpenAI on your data enables you to run supported chat models such as ChatGPT and GPT-4 on your data without needing to train or fine-tune models. 
 ###
-####How it works 
+#### How it works 
 * Azure connects to OpenAI API and provides access to the model's text-in, text-out interface.
 * Azure OpenAI processes text by breaking it down into tokens. The total number of tokens processed in a given request depends on the length of your input, output and request parameters.
 * One of the key features of Azure OpenAI on your data is its ability to retrieve and utilize data in a way that enhances the model's output. Azure OpenAI on your data, together with Azure Cognitive Search, determines what data to retrieve from the designated data source based on the user input and provided conversation history. This data is then augmented and resubmitted as a prompt to the OpenAI model, with retrieved information being appended to the original prompt. Although retrieved data is being appended to the prompt, the resulting input is still processed by the model like any other prompt. Once the data has been retrieved and the prompt has been submitted to the model, the model uses this information to provide a completion.
@@ -23,9 +23,9 @@ Azure OpenAI Service provides REST API access to OpenAI's powerful language mode
 
 * Azure OpenAI on your data uses an Azure Cognitive Services index to determine what data to retrieve based on user inputs and provided conversation history. 
 ##
-####Limitations
+#### Limitations
 ##
-#####*Data formats*
+##### *Data formats*
 Azure OpenAI on your data supports the following filetypes:
 * .txt
 * .md
@@ -35,7 +35,7 @@ Azure OpenAI on your data supports the following filetypes:
 * PDF
   
 ##
-#####*System Message*
+##### *System Message*
 ###
 Give the model instructions about how it should behave and any context it should reference when generating a response. You can describe the assistant’s personality, what it should and shouldn’t answer, and how to format responses. The system message will be truncated if it's greater than 200 tokens.
 
@@ -46,7 +46,7 @@ For example, if you're creating a chatbot where the data consists of transcripti
 
 
 ##
-#####*Maximum Response*
+##### *Maximum Response*
 
 The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent to setting the max_tokens parameter in the API.
 
@@ -57,8 +57,8 @@ The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent
 - Cognitive Search to access your own data.
 
 ##
-######Azure OpenAI Service
-##
+###### Azure OpenAI Service
+## 
 
 |         Models          | Per 1,000 tokens |
 |-------------------------|------------------|
@@ -91,7 +91,7 @@ The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent
 * Assuming a Max Request of 4,097 tokens. 
   **Cost per Request = €0.076540154**
 #
-######Cognitive Search pricing
+###### Cognitive Search pricing
 
 |                           |  Free   |                            Basic                            |                          Standard S1                           |                          Standard S2                           |                                              Standard S3                                               |                      Storage Optimized L1                      |                                          Storage Optimized L2                                          |
 |---------------------------|---------|-------------------------------------------------------------|----------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
@@ -104,10 +104,10 @@ The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent
   **Cost per Plan = €68.88/month**
 
 
-####*Total Cost: €7.6540154/100 Requests & €68.88/month.*
+#### *Total Cost: €7.6540154/100 Requests & €68.88/month.*
 #
 #
-#####*Other Hard Limitations*
+##### *Other Hard Limitations*
 
 
 * Default quota per model and region Text-Davinci-003 = 120K tokens per minute ≈ 30 requests/min.
@@ -116,16 +116,16 @@ The upper limit for Azure OpenAI on Your Data is 1500 tokens. This is equivalent
 #
 #
 
-###How to Implement
+### How to Implement
 
-####Prerequisites
+#### Prerequisites
 * An Azure Subscription.
 * Access granted to Azure OpenAI using https://aka.ms/oai/access.
 * A database resource with a ***supported format*** either on Azure Blobs, Cognitive Search, or be able to upload it directly.
 
 ##
 
-####Steps to add your data using Azure OpenAI Studio
+#### Steps to add your data using Azure OpenAI Studio
 
 Navigate to Azure OpenAI Studio and sign-in with credentials that have access to your Azure OpenAI resource. During or after the sign-in workflow, select the appropriate directory, Azure subscription, and Azure OpenAI resource.
 
