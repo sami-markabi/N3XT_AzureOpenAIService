@@ -140,7 +140,9 @@ Navigate to Azure OpenAI Studio and sign-in with credentials that have access to
 
 5. Select the **Chat playground tile**.
 ##
-   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chat-playground-card.png" alt="step1" width="1000" height="300"/>
+   <img src="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/media/quickstarts/chat-playground-card.png" alt="step1" width="1000" height="500"/>
+
+   
 ##
 
 6. Create a **new deployment**. Select a model to use (Text-Davinci).
